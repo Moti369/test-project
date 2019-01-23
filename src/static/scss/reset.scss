@@ -1,0 +1,46 @@
+/**
+ * @author [贺喜]
+ * @email [1440806569@qq.com]
+ * @create date 2018-03-09 05:08:42
+ * @modify date 2018-03-09 05:08:42
+ * @desc [reset]
+*/
+
+html, body, div, h1, h2, h3, h4, h5, h6, span, input, textarea, button, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-focus: none;
+  -moz-user-select: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+}

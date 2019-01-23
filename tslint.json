@@ -1,0 +1,18 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-react",
+    "tslint-config-standard"
+  ],
+  "rules": {
+    "jsdoc-format": false,
+    "semicolon": [true, "always"],
+    "one-line": false,
+    "member-ordering": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "jsx-no-string-ref": false,
+    "jsx-curly-spacing": false,
+    "trailing-comma": false
+  }
+}

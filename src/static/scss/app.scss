@@ -1,0 +1,26 @@
+/**
+ * @author [贺喜]
+ * @email [1440806569@qq.com]
+ * @create date 2018-03-09 05:08:30
+ * @modify date 2018-03-09 05:08:30
+ * @desc [全局样式]
+*/
+
+@import './reset';
+@import './var.scss';
+
+html, body {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 20px;
+  background: $view-bg-default !important;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif !important;
+}
+
+// 全局样式
+:global {
+}
